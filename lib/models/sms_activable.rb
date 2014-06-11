@@ -22,8 +22,8 @@ module Devise
     #
     # == Examples
     #
-    #   User.find(1).sms_confirm!      # returns true unless it's already confirmed
-    #   User.find(1).sms_confirmed?    # true/false
+    #   User.find(1).confirm_sms!      # returns true unless it's already confirmed
+    #   User.find(1).confirmed_sms?    # true/false
     #   User.find(1).send_sms_token # manually send token
     #
     module SmsActivable
